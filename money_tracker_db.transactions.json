@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "686f74488f4746dad8d7b8be"
+  },
+  "title": "Surya Besar 1 Bungkus",
+  "amount": 32000,
+  "type": "Pengeluaran",
+  "date": "2025-07-17T16:44:50.565865"
+},
+{
+  "_id": {
+    "$oid": "68784d3568359660ced2ecfd"
+  },
+  "title": "Es Teh",
+  "amount": 5000,
+  "type": "Pengeluaran",
+  "date": "2025-07-17T08:09:09.617432"
+}]

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Manajemen Koleksi Buku</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Manajemen Koleksi Buku Pribadi</h1>
+
+    <h2>Tambah Buku</h2>
+    <form id="buku-form">
+      <input type="text" id="judul" placeholder="Judul Buku" required>
+      <input type="text" id="pengarang" placeholder="Pengarang" required>
+      <input type="number" id="tahun_terbit" placeholder="Tahun Terbit" required>
+      <input type="text" id="kategori" placeholder="Kategori" required>
+      <input type="text" id="isbn" placeholder="ISBN" required>
+      <button type="submit">Tambah Buku</button>
+    </form>
+
+    <h2>Daftar Buku</h2>
+    <table id="buku-table" border="1" cellpadding="8">
+      <thead>
+        <tr>
+          <th>Judul</th>
+          <th>Pengarang</th>
+          <th>Tahun Terbit</th>
+          <th>Kategori</th>
+          <th>ISBN</th>
+          <th>Aksi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Data akan di-load disini -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
