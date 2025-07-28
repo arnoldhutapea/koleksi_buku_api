@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "68792101e9c7b4e0a065899e"
+  },
+  "judul": "Kalkulus",
+  "pengarang": "Dr.Sabam",
+  "tahun_terbit": "1998",
+  "kategori": "Matematika",
+  "isbn": "278417947"
+}]
